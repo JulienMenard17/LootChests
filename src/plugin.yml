@@ -1,0 +1,10 @@
+name: LootChests
+version: 1.0
+author: SharkMenard
+main: ca.sharkmenard.lootchests.Main
+
+commands:
+  lootchests:
+    aliases: lc
+  grind:
+    aliases: broyer

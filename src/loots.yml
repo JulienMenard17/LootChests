@@ -1,0 +1,111 @@
+#Il y a 3 type de loots: Item , Command, Fragment
+#Le Tier signifie le Tier de l'armure requit pour avoir ce drop
+#Lorsque les armures Lou d'Arkthesium sont portils ignorent les Tiers
+#Si le Tier est de 0 cela signifie pas d'armures sp
+#Le Damage est le nombre aprles ":" dans l'id d'un item, par exemple le damage de l'id '1:3' est 3
+#La Chance est en pourcentage
+#Le Type est obligatoire
+Loots:
+    '1':
+        Type: "Fragment"
+        Tier: 0
+        Name: "&9Fragment Normal"
+        Message: "+%amount% &9Fragment Normal"
+        MaterialID: 375
+        Damage: 0
+        Enchanted: true
+        HideEnchants: true 
+        Chance: 20
+        MinAmount: 1
+        MaxAmount: 9
+    '2':
+        Type: "Fragment"
+        Tier: 1
+        Name: "&6Fragment Chanceux"
+        Message: "+%amount% &6Fragment Chanceux"
+        MaterialID: 371
+        Damage: 0
+        Enchanted: true
+        HideEnchants: true 
+        Chance: 11
+        MinAmount: 1
+        MaxAmount: 10
+    '3':
+        Type: "Fragment"
+        Tier: 2
+        Name: "&5Fragment Epic"
+        Message: "+%amount% &5Fragment Epic"
+        MaterialID: 318
+        Damage: 0
+        Enchanted: true
+        HideEnchants: true 
+        Chance: 6
+        MinAmount: 1
+        MaxAmount: 9
+    '4':
+        Type: "Fragment"
+        Tier: 3
+        Name: "&eFragment Légendaire"
+        Message: "+%amount% &eFragment Legendaire"
+        MaterialID: 409
+        Damage: 0
+        Enchanted: true
+        HideEnchants: true 
+        Chance: 4
+        MinAmount: 1
+        MaxAmount: 7
+    '5':
+        Type: "Item"
+        MaterialID: 310
+        Message: "+%amount% Casque en diamant"
+        Chance: 10
+    '6':
+        Type: "Item"
+        MaterialID: 311
+        Message: "+%amount% Plastron en diamant"
+        Chance: 10
+    '7':
+        Type: "Item"
+        MaterialID: 312
+        Message: "+%amount% Jambieres en diamant"
+        Chance: 10
+    '8':
+        Type: "Item"
+        MaterialID: 313
+        Message: "+%amount% Bottes en diamant"
+        Chance: 10
+    '9':
+        Type: "Item"
+        MaterialID: 276
+        Message: "+%amount% Épée en diamant"
+        Chance: 10
+    '10':
+        Type: "Item"
+        MaterialID: 373
+        Message: "+%amount% Potion de Speed I (8 min)"
+        Damage: 8258
+        Chance: 10
+    '11':
+        Type: "Item"
+        MaterialID: 373
+        Message: "+%amount% Potion de Force I (8 min)"
+        Damage: 8265
+        Chance: 10
+    '12':
+        Type: "Item"
+        MaterialID: 373
+        Message: "+%amount% Potion de Fire Resistance (8 min)"
+        Damage: 8259
+        Chance: 10
+    '13':
+        Type: "Item"
+        MaterialID: 384
+        Message: "+%amount% Fiole d'xp"
+        Chance: 10
+        Amount: 10
+    '14':
+        Type: "Command"
+        Message: "+10$"
+        Commands:
+            - "eco give %player% 10"
+        Chance: 10
